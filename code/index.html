@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="site-title">Video</title>
+    <meta property="og:title" content="Video">
+    <meta property="og:image" id="og-image" content="">
+    <link rel="icon" type="image/png" id="favicon" href="">
+    <!-- GITHUB SETUP: When pasting this code into Blogger, replace 'style.css' inside href with your exact GitHub CSS URL -->
+    <!-- Example: <link rel="stylesheet" href="https://username.github.io/video-lander/style.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="glass-header">
+        <div class="logo-container">
+            <img id="site-logo" src="" alt="Site Logo" loading="lazy">
+            <h1 id="header-title"></h1>
+        </div>
+    </header>
+
+    <div class="page-wrapper">
+        <!-- Left Sidebar Ad -->
+        <aside class="side-ad left-ad glass-panel">
+            <div class="ad-content">Left Ad Space</div>
+        </aside>
+
+        <main class="main-container">
+        <!-- Top Banner Ad (720x90 typical size) -->
+        <div class="ad-banner top-ad glass-panel">
+            <div class="ad-content">Banner Ads 720</div>
+        </div>
+
+        <section id="content-section" class="dynamic-content-section">
+            <div id="image-wrapper" class="glass-panel content-block image-block">
+                <img id="main-image" src="" alt="Video Thumbnail" loading="lazy">
+                
+                <!-- Overlay for Condition 1 Unlock Button -->
+                <div id="unlock-overlay" class="hidden">
+                    <button id="unlock-btn" class="glow-on-hover primary-btn">
+                        <span class="btn-icon">🔒</span> আনলক করুন
+                    </button>
+                </div>
+            </div>
+
+            <div id="notice-container" class="glass-panel content-block notice-block">
+                <p id="notice-text"></p>
+            </div>
+
+            <div id="button-container" class="content-block button-block">
+                <!-- Buttons injected via JS -->
+            </div>
+
+            <div id="grid-container" class="content-block grid-block hidden">
+                <!-- Image grid for condition 5 injected via JS -->
+            </div>
+        </section>
+
+        <!-- Bottom Ad -->
+        <div class="ad-banner bottom-ad glass-panel">
+            <div class="ad-content">Advertisement</div>
+        </div>
+    </main>
+
+        <!-- Right Sidebar Ad -->
+        <aside class="side-ad right-ad glass-panel">
+            <div class="ad-content">Right Ad Space</div>
+        </aside>
+    </div>
+
+    <!-- GITHUB SETUP: When pasting this code into Blogger, replace 'script.js' inside src with your exact GitHub JS URL -->
+    <!-- The script will auto-detect this URL and load all JSON files from the same GitHub folder automatically! -->
+    <!-- Example: <script src="https://username.github.io/video-lander/script.js"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>
